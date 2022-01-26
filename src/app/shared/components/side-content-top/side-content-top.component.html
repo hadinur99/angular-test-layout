@@ -1,0 +1,15 @@
+<mat-divider style="border: 1px solid"></mat-divider>
+
+<mat-card class="activity-card" *ngFor="let data of users" style="height: 92px;">
+  <mat-card-title-group>
+    <img
+        mat-card-sm-image
+        src="../../../../assets/images/white-bg.jpeg"
+    />
+    <mat-card-title>{{ data.name }}</mat-card-title>
+    <mat-card-subtitle>{{ data.email }}</mat-card-subtitle>
+  </mat-card-title-group>
+    <mat-card-content>
+        {{ data.catchPhrase }}
+    </mat-card-content>
+</mat-card>

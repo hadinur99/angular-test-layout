@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<app-menus></app-menus>
+<div>
+    <div fxLayout="row" fxLayoutGap="10px">
+        <div fxFlex="60%" fxFlex.xs="100%">
+            <h1>Videos</h1>
+            <app-main-content></app-main-content>
+        </div>
+
+        <div fxLayout="column" fxFlex>
+            <h1>Activity</h1>
+            <app-side-content-top></app-side-content-top>
+        </div>
+    </div>
+
+    <div fxLayout="row wrap" fxLayoutGap="10px" style="margin-top: 50px;">
+        <div fxFlex="60%" fxFlex.xs="100%">
+            <h1>People</h1>
+            <app-main-content></app-main-content>
+        </div>
+
+        <div fxFlex>
+            <h1>Channels</h1>
+            <app-side-content-bottom></app-side-content-bottom>
+        </div>
+    </div>
+
+    <div fxLayout="row wrap" fxLayoutGap="10px" style="margin-top: 50px;">
+        <div fxFlex="60%" fxFlex.xs="100%">
+            <h1>Documents</h1>
+            <app-main-content></app-main-content>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

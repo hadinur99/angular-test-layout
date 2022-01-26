@@ -1,0 +1,10 @@
+.activity-card {
+    background-color: #cd5c5c; 
+    cursor: pointer; 
+    color: white;
+    margin-top: 5px;
+}
+
+.activity-card:hover {
+    border: 1px solid white;
+}
